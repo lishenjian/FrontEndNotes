@@ -3,7 +3,8 @@
 页面头中通常会使用链表作为页面头的导航，因此考虑把 li 元素水平排列：
 
 
-   ```<!DOCTYPE>
+    ```
+    <!DOCTYPE>
     <html>
         <head>
             <meta charset="utf-8">
@@ -33,9 +34,10 @@
                 <li><a href="#">链接三</a></li>
             </ul>
         </body>
-    </html> ```
+    </html>
+    ```
 
-    1. 用浮动
-       用浮动使li脱离原来的文档流，向 left 或 right浮动使li水平排布（原来的列表前的图标会保留，需要用list-style:none; 去除）；
-    2. display样式
-       inline-block 把li 变为内联元素，li之间没有换行，因此会水平排列，但是列表前的图标会自动消失；
+1. 用浮动
+   用浮动使li脱离原来的文档流，向 left 或 right浮动使li水平排布（原来的列表前的图标会保留，需要用list-style:none; 去除）；
+2. display样式
+   inline-block 把li 变为内联元素，li之间没有换行，因此会水平排列，但是列表前的图标会自动消失；
